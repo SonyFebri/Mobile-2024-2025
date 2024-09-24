@@ -8,18 +8,18 @@ void main() {
   }
 
   (String, String) mahasiswa;
-  mahasiswa = ('Sony Febri Hari Wibowo', '2241720202'); // Nama dan NIM Anda
+  mahasiswa = ('Sony Febri Hari Wibowo', '2241720202');
   print(mahasiswa);
 
   var mahasiswa2 = ('first', a: 2, b: true, 'last');
   mahasiswa2 = (mahasiswa.$1, a: 2, b: true, mahasiswa.$2);
 
-  print(mahasiswa2.$1); // 'Sony Febri Hari Wibowo'
-  print(mahasiswa2.a); // 2
-  print(mahasiswa2.b); // true
-  print(mahasiswa2.$2); // 'last'
+  print(mahasiswa2.$1);
+  print(mahasiswa2.a);
+  print(mahasiswa2.b);
+  print(mahasiswa2.$2);
 
   var angka = (1, 2);
   var hasilTukar = tukar(angka);
-  print('Hasil Tukar: $hasilTukar'); // (2, 1)
+  print('Hasil Tukar: $hasilTukar');
 }
